@@ -16,6 +16,28 @@ Then generate your new project:
 yo rtc
 ```
 
+In order to make this generator accessible for Yeoman use command
+```bash
+npm link
+```
+
+##How to use it
+
+Go to a folder where you want to create a component.
+
+Type command 
+```bash
+yo rtc [component-name]
+```
+
+Then select one of the templates:
+- component (defaults) - create simple react component with the most modern approach
+- styled - create component for a styled-system
+
+Select one of the testing renderer library:
+- rtl - react-testing-library template
+- enzyme - use enzyme renderer
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
