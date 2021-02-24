@@ -1,0 +1,10 @@
+import styled from 'styled-components';
+import { SC } from '../../theme';
+import { boxReset, boxSystem, InjectedBoxProps } from '../../theme/mixin';
+
+export type <%= componentName %>Props = InjectedBoxProps<any>;
+
+export const <%= componentName %>: SC<<%= componentName %>Props> = styled.div`
+    ${boxReset()}
+    ${boxSystem}
+`;

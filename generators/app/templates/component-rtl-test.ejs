@@ -1,0 +1,18 @@
+import { render } from '@testing-library/react';
+
+import { <%= componentName %>, <%= componentName %>Props } from './<%= path %>';
+
+describe('<%= componentName %>', () => {
+    let props: <%= componentName %>Props;
+
+    beforeEach(() => {
+        props = {
+
+        };
+    });
+    it('should render <%= description %>', () => {
+        const { container } = render(<<%= componentName %> {...props} />);
+
+        expect(container).toMatchInlineSnapshot();
+    });
+});

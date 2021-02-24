@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Denys Kovalishyn",
+      "authorEmail": "Denys_Kovalishyn@epam.com",
+      "authorUrl": ""
+    }
+  }
+}
